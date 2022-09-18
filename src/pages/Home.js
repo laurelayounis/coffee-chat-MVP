@@ -19,7 +19,6 @@ const Home= () =>{
         <div className="overlay">
         <Nav 
         minimal={false} 
-        authToken={authToken} 
         setShowModal={setShowModal} 
         showModal={showModal}
         //passing through the state for is sign up / option to change it (logic is in the Nav component: so when we click on the button (const handleclick) it changes setIsSignUp to false
